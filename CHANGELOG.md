@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ymkz/renovate-config/compare/v1.0.0...v1.1.0) (2020-03-21)
+
+
+### Features
+
+* update schedule of lockfile maintenance ([9885982](https://github.com/ymkz/renovate-config/commit/9885982249225d15896e3acc424941a5558b07fb))
+
 # 1.0.0 (2020-03-03)
 
 
