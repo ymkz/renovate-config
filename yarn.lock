@@ -5999,7 +5999,7 @@ sax@>=0.6.0, sax@^1.2.1:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-secretlint@^1.0.4:
+secretlint@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/secretlint/-/secretlint-1.1.0.tgz#53b31865f86778913a247b5eb743416efbb9353e"
   integrity sha512-aEFg2jHLdWi6kwCIPWQ1nO1Wi0b7HIn2d/rUmth1X1GMHjvgpd0f8xbgeIYqDEMDIkbbjvxgOxzhZGfsk/a5oQ==
