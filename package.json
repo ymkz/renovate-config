@@ -28,7 +28,7 @@
     "lint-staged": "^10.2.4",
     "prettier": "^2.0.5",
     "prettier-package-json": "^2.1.3",
-    "renovate": "^19.239.11",
+    "renovate": "^20.2.3",
     "secretlint": "^1.1.0",
     "semantic-release": "^17.0.7",
     "yarnhook": "^0.4.3"
