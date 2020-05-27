@@ -1,26 +1,5 @@
 # @ymkz/renovate-config
 
-<p>
-  <a href="https://npmjs.com/package/@ymkz/renovate-config" target="_blank" rel="noopener noreferrer">
-    <img src="https://flat.badgen.net/npm/v/@ymkz/renovate-config?icon=npm" />
-  </a>
-  <a href="https://www.npmjs.com/package/@ymkz/renovate-config" target="_blank" rel="noopener noreferrer">
-    <img src="https://flat.badgen.net/npm/license/@ymkz/renovate-config?icon=npm" />
-  </a>
-  <a href="https://github.com/ymkz/renovate-config" target="_blank" rel="noopener noreferrer">
-    <img src="https://flat.badgen.net/github/checks/ymkz/renovate-config?icon=github" />
-  </a>
-  <a href="https://app.renovatebot.com/dashboard#github/ymkz/renovate-config" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/renovate-enabled-green?style=flat-square" />
-  </a>
-  <a href="https://prettier.io" target="_blank" rel="noopener noreferrer">
-    <img src="https://flat.badgen.net/badge/formatter/prettier/ff69b4" />
-  </a>
-  <a href="https://twitter.com/ymkzly" target="_blank" rel="noopener noreferrer">
-    <img src="https://flat.badgen.net/twitter/follow/ymkzly?icon=twitter" />
-  </a>
-</p>
-
 > ymkz's renovate config
 
 ## Usage
