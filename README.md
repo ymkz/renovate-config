@@ -1,5 +1,7 @@
 # @ymkz/renovate-config
 
+[![Rolling Versions](https://img.shields.io/badge/Rolling%20Versions-Enabled-brightgreen?style=for-the-badge)](https://rollingversions.com/ymkz/renovate-config)
+
 > ymkz's renovate config
 
 ## Usage
