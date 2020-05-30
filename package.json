@@ -1,19 +1,48 @@
 {
   "name": "@ymkz/renovate-config",
+  "version": "1.2.0",
   "description": "ymkz's renovate config",
-  "license": "MIT",
-  "author": "ymkz <ymkzly@gmail.com> (https://github.com/ymkz)",
+  "keywords": [
+    "config",
+    "renovate",
+    "ymkz"
+  ],
   "homepage": "https://github.com/ymkz/renovate-config",
+  "bugs": {
+    "url": "https://github.com/ymkz/renovate-config/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ymkz/renovate-config.git"
   },
-  "bugs": {
-    "url": "https://github.com/ymkz/renovate-config/issues"
-  },
-  "version": "1.1.0",
+  "license": "MIT",
+  "author": "ymkz <ymkzly@gmail.com> (https://github.com/ymkz)",
   "scripts": {
     "validate": "renovate-config-validator"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "post-checkout": "yarnhook",
+      "post-merge": "yarnhook",
+      "post-rewrite": "yarnhook"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{md,yml,json}": [
+      "prettier --write"
+    ]
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -21,15 +50,10 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.6",
     "prettier": "^2.0.5",
-    "prettier-package-json": "^2.1.3",
+    "prettier-plugin-packagejson": "^2.2.5",
     "renovate": "^20.2.3",
     "yarnhook": "^0.4.3"
   },
-  "keywords": [
-    "config",
-    "renovate",
-    "ymkz"
-  ],
   "publishConfig": {
     "access": "public"
   },
@@ -56,5 +80,8 @@
       "rangeStrategy": "bump",
       "separateMinorPatch": true
     }
+  },
+  "volta": {
+    "node": "12.17.0"
   }
 }
