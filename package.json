@@ -51,7 +51,7 @@
     "lint-staged": "^10.2.10",
     "prettier": "^2.0.5",
     "prettier-plugin-packagejson": "^2.2.5",
-    "renovate": "^21.11.0",
+    "renovate": "^21.11.1",
     "yarnhook": "^0.4.3"
   },
   "publishConfig": {
