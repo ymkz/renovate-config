@@ -1893,10 +1893,10 @@ linkify-markdown@1.0.0:
     remark-github "^7.0.3"
     to-vfile "^2.2.0"
 
-lint-staged@^10.2.10:
-  version "10.2.10"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.2.10.tgz#f0f78bf8786bbe90e1775a0dc540f7f12b6a79b2"
-  integrity sha512-dgelFaNH6puUGAcU+OVMgbfpKSerNYsPSn6+nlbRDjovL0KigpsVpCu0PFZG6BJxX8gnHJqaZlR9krZamQsb0w==
+lint-staged@^10.2.11:
+  version "10.2.11"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.2.11.tgz#713c80877f2dc8b609b05bc59020234e766c9720"
+  integrity sha512-LRRrSogzbixYaZItE2APaS4l2eJMjjf5MbclRZpLJtcQJShcvUzKXsNeZgsLIZ0H0+fg2tL4B59fU9wHIHtFIA==
   dependencies:
     chalk "^4.0.0"
     cli-truncate "2.1.0"
@@ -2954,10 +2954,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^21.12.0:
-  version "21.12.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.12.0.tgz#4b046ad49ec5213e2e01386e9ee864dd48a222aa"
-  integrity sha512-EMpKUCdVV+1FcOFOXukGFxZWUInzPcPM66TDSXfEUpMYdiFC5I1UH/NYNvLw+jBIsvKAP+uSvg4hQ2nEcU7y+w==
+renovate@^21.12.2:
+  version "21.12.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.12.2.tgz#20086b189e646210eb5f6fa843526338720e5d44"
+  integrity sha512-5Wn/W2u21ebCHwtUWUqW+MV5LhQxzUWRrp4HytMkCD3M4RbyUkeVFYXVSVEcIHxvZHnJexBnCM8nCd9tEqrzdg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.1"
