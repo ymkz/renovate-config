@@ -48,10 +48,10 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.10",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "prettier-plugin-packagejson": "^2.2.5",
-    "renovate": "^21.12.0",
+    "renovate": "^21.12.2",
     "yarnhook": "^0.4.3"
   },
   "publishConfig": {
